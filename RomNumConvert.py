@@ -11,6 +11,7 @@ class Solution:
                 if i+2 != len(alls):
                     if romLib[alls[i]] == romLib[alls[i+2]]:
                         alnum += romLib[alls[i]]
+                        i += 1
             elif romLib[alls[i]] < romLib[alls[i+1]]:
                 alnum += romLib[alls[i+1]] - romLib[alls[i]]
                 i += 1
