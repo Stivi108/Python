@@ -18,6 +18,6 @@ class Solution:
             i += 1
         return alnum
 
-s = 'MCMXCIV'
+s = str(input())
 transporter = Solution()
 print(transporter.romanToInt(s))
